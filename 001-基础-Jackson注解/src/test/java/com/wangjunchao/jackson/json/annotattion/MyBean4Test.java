@@ -28,7 +28,7 @@ public class MyBean4Test {
         assertThat(result, containsString("1"));
         assertThat(result, not(containsString("name")));
 
-        // 禁用注解后
+        // 禁用注解后 TODO 好像不起作用
         mapper = new ObjectMapper();
         mapper.disable(MapperFeature.USE_ANNOTATIONS);
         result = mapper.writeValueAsString(bean);
