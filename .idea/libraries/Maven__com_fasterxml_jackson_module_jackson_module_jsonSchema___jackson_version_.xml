@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.fasterxml.jackson.module:jackson-module-jsonSchema:${jackson.version}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jsonSchema/${jackson.version}/jackson-module-jsonSchema-${jackson.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jsonSchema/${jackson.version}/jackson-module-jsonSchema-${jackson.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jsonSchema/${jackson.version}/jackson-module-jsonSchema-${jackson.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
