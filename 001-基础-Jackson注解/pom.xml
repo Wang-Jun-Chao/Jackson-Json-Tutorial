@@ -10,6 +10,8 @@
 
     <properties>
         <jackson.verson>2.8.9</jackson.verson>
+        <guava.verson>22.0</guava.verson>
+        <junit.verson>4.12</junit.verson>
     </properties>
     <dependencies>
         <dependency>
@@ -27,41 +29,46 @@
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.verson}</version>
         </dependency>
-
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-xml</artifactId>
-            <version>${jackson.version}</version>
+            <version>${jackson.verson}</version>
         </dependency>
 
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
-            <version>${jackson.version}</version>
+            <version>${jackson.verson}</version>
         </dependency>
 
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-joda</artifactId>
-            <version>${jackson.version}</version>
+            <version>${jackson.verson}</version>
         </dependency>
 
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-jsonSchema</artifactId>
-            <version>${jackson.version}</version>
+            <version>${jackson.verson}</version>
         </dependency>
 
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jdk8</artifactId>
-            <version>${jackson.version}</version>
+            <version>${jackson.verson}</version>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.verson}</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit.verson}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
