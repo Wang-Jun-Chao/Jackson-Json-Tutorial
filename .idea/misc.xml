@@ -3,6 +3,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/002-高级-Jackson注解/pom.xml" />
         <option value="$PROJECT_DIR$/001-基础-Jackson注解/pom.xml" />
       </list>
     </option>
